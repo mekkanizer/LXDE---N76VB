@@ -1,8 +1,6 @@
 LXDE---N76VB
 ============
 
-A backup of some fine tuning I applied to LXDE on my laptop
-
 Put panel into ~/.config/lxpanel/Lubuntu/panels/
 
 Put 20-lubuntu.conf into /etc/lightdm/lightdm.conf.d
