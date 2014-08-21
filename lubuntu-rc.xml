@@ -227,26 +227,6 @@
         <wrap>no</wrap>
       </action>
     </keybind>
-    <keybind key="W-F1">
-      <action name="GoToDesktop">
-        <to>1</to>
-      </action>
-    </keybind>
-    <keybind key="W-F2">
-      <action name="GoToDesktop">
-        <to>2</to>
-      </action>
-    </keybind>
-    <keybind key="W-F3">
-      <action name="GoToDesktop">
-        <to>3</to>
-      </action>
-    </keybind>
-    <keybind key="W-F4">
-      <action name="GoToDesktop">
-        <to>4</to>
-      </action>
-    </keybind>
     <keybind key="W-d">
       <action name="ToggleShowDesktop"/>
     </keybind>
@@ -265,20 +245,16 @@
       </action>
     </keybind>
     <keybind key="W-z">
-      <action name="If">
-        <iconified>yes</iconified>
-        <then>
-          <action name="PreviousWindow"/>
-            <finalactions>
-              <action name="Focus"/>
-              <action name="Raise"/>
-              <action name="Unshade"/>
-            </finalactions>
-        </then>
-        <else>
-          <action name="Iconify"/>
-        </else>
+      <action name="PreviousWindow"/>
+        <finalactions>
+          <action name="Focus"/>
+          <action name="Raise"/>
+          <action name="Unshade"/>
+        </finalactions>
       </action>
+    </keybind>
+    <keybind key="XF86Launch6">
+      <action name="ToggleDecorations"/>
     </keybind>
     <!-- Take a screenshot of the current window with scrot when Alt+Print are pressed -->
     <keybind key="A-Print">
@@ -298,6 +274,15 @@
       </action>
     </keybind>
     <keybind key="A-S-Tab">
+      <action name="PreviousWindow">
+        <finalactions>
+          <action name="Focus"/>
+          <action name="Raise"/>
+          <action name="Unshade"/>
+        </finalactions>
+      </action>
+    </keybind>
+    <keybind key="W-A">
       <action name="PreviousWindow">
         <finalactions>
           <action name="Focus"/>
@@ -434,11 +419,6 @@
     <!-- Keybinding for Volume management -->
     <keybind key="XF86AudioRaiseVolume">
       <action name="Execute">
-        <startupnotify>
-          <enabled>yes</enabled>
-          <name>Your ears are endangered!</name>
-          <icon>nm-device-wireless</icon>
-        </startupnotify>
         <command>amixer -q sset Master 3%+ unmute</command>
       </action>
     </keybind>
@@ -450,6 +430,16 @@
     <keybind key="XF86AudioMute">
       <action name="Execute">
         <command>amixer -q sset Master toggle</command>
+      </action>
+    </keybind>
+    <keybind key="W-F3">
+      <action name="Execute">
+        <command>amixer -q sset Master 3%+ unmute</command>
+      </action>
+    </keybind>
+    <keybind key="W-F4">
+      <action name="Execute">
+        <command>amixer -q sset Master 3%- unmute</command>
       </action>
     </keybind>
     <!-- Keybinding for toggling wifi on/off -->
