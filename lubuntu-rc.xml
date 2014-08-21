@@ -245,13 +245,7 @@
       </action>
     </keybind>
     <keybind key="W-z">
-      <action name="PreviousWindow"/>
-        <finalactions>
-          <action name="Focus"/>
-          <action name="Raise"/>
-          <action name="Unshade"/>
-        </finalactions>
-      </action>
+      <action name="Iconify"/>
     </keybind>
     <keybind key="XF86Launch6">
       <action name="ToggleDecorations"/>
@@ -275,20 +269,13 @@
     </keybind>
     <keybind key="A-S-Tab">
       <action name="PreviousWindow">
-        <finalactions>
-          <action name="Focus"/>
-          <action name="Raise"/>
-          <action name="Unshade"/>
-        </finalactions>
+        <dialog>icons</dialog>
+        <raise>yes</raise>
       </action>
     </keybind>
-    <keybind key="W-A">
+    <keybind key="W-a">
       <action name="PreviousWindow">
-        <finalactions>
-          <action name="Focus"/>
-          <action name="Raise"/>
-          <action name="Unshade"/>
-        </finalactions>
+        <interactive>no</interactive>
       </action>
     </keybind>
     <keybind key="C-A-Tab">
@@ -434,12 +421,12 @@
     </keybind>
     <keybind key="W-F3">
       <action name="Execute">
-        <command>amixer -q sset Master 3%+ unmute</command>
+        <command>amixer -q sset Master 3%- unmute</command>
       </action>
     </keybind>
     <keybind key="W-F4">
       <action name="Execute">
-        <command>amixer -q sset Master 3%- unmute</command>
+        <command>amixer -q sset Master 3%+ unmute</command>
       </action>
     </keybind>
     <!-- Keybinding for toggling wifi on/off -->
