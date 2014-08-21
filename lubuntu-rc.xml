@@ -379,6 +379,11 @@
     <keybind key="C-A-T">
       <action name="Execute">
         <command>lxsession-default terminal</command>
+        <finalactions>
+          <action name="PreviousWindow">
+            <interactive>no</interactive>
+          </action>
+        </finalactions>
       </action>
     </keybind>
     <!-- Launch a filemanager on Ctrl + Alt + D-->
