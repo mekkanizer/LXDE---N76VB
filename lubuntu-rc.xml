@@ -247,6 +247,9 @@
     <keybind key="W-z">
       <action name="Iconify"/>
     </keybind>
+    <keybind key="W-x">
+      <action name="ToggleMaximize"/>
+    </keybind>
     <keybind key="XF86Launch6">
       <action name="ToggleDecorations"/>
     </keybind>
