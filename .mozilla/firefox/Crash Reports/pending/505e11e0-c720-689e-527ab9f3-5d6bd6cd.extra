@@ -1,0 +1,25 @@
+StartupTime=1408147149
+EMCheckCompatibility=true
+ProductName=Firefox
+Vendor=Mozilla
+InstallTime=1406212687
+Theme=classic/1.0
+Notes=OpenGL: Intel Open Source Technology Center -- Mesa DRI Intel(R) Ivybridge Mobile  -- 3.0 Mesa 10.1.3 -- texture_from_pixmap\n
+FramePoisonSize=4096
+Version=31.0
+FramePoisonBase=7ffffffff0dea000
+ReleaseChannel=release
+ServerURL=https://crash-reports.mozilla.com/submit?id={ec8030f7-c20a-464f-9b0e-13a3a9e97384}&version=31.0&buildid=20140715214327
+useragent_locale=chrome://global/locale/intl.properties
+Add-ons=ubufox%40ubuntu.com:2.9,%7B888d99e7-e8b5-46a3-851e-1ec45da1e644%7D:28.0.2,e67f8350-7edf-11e3-baa7-0800200c9a66%40fri-gate.org:2.1.3,ClassicThemeRestorer%40ArisT2Noia4dev:1.2.3,%7B19503e42-ca3c-4c27-b1e2-9cdb2170ee34%7D:1.5.6.3,%7B972ce4c6-7e08-4474-a285-3208198ce6fd%7D:31.0,%7Bd10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d%7D:2.6.4,langpack-en-GB%40firefox.mozilla.org:31.0,langpack-en-ZA%40firefox.mozilla.org:31.0,langpack-ru%40firefox.mozilla.org:31.0
+BuildID=20140715214327
+ProductID={ec8030f7-c20a-464f-9b0e-13a3a9e97384}
+URL=https://vk.com/audios12045175?q=freemasons%20take%20me
+CrashTime=1408291549
+StartupTime=1408147175
+PluginHang=1
+ProcessType=plugin
+additional_minidumps=browser
+PluginVersion=11.2.202.400
+PluginName=Shockwave Flash
+PluginFilename=libflashplayer.so

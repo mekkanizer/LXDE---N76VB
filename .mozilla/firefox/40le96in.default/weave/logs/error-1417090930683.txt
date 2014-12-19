@@ -1,0 +1,53 @@
+1417087330674	Sync.ErrorHandler	DEBUG	Flushing file log.
+1417087330676	Sync.Service	DEBUG	Exception: No keyFetchToken No traceback available
+1417087330676	Sync.Service	DEBUG	Not syncing: login returned false.
+1417087330676	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1417087330676	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1417087330676	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1417087330677	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1417087330677	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1417087330677	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1417087330679	Sync.ErrorHandler	DEBUG	Log cleanup threshold time: 1416223330679
+1417087330681	Sync.ErrorHandler	DEBUG	No logs to clean up.
+1417087330681	Sync.ErrorHandler	DEBUG	Log cleanup threshold time: 1416223330681
+1417087330683	Sync.ErrorHandler	DEBUG	No logs to clean up.
+1417087341961	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417087373211	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417087390668	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417087424194	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417087601097	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417087603989	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417087608049	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417087611836	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417087613781	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417087616768	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417087629069	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417087634718	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417087658718	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417087687402	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417087697319	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417087729375	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417087730744	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417088251670	Sync.Tracker.Forms	DEBUG	Saving changed IDs to forms
+1417088619956	Sync.Tracker.Forms	DEBUG	Saving changed IDs to forms
+1417089355398	Sync.Tracker.Forms	DEBUG	Saving changed IDs to forms
+1417089855311	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417090930675	Sync.Service	DEBUG	User-Agent: Firefox/33.0 FxSync/1.35.0.20141013200257.
+1417090930675	Sync.Service	INFO	Starting sync at 2014-11-27 15:22:10
+1417090930676	Sync.Service	DEBUG	In sync: should login.
+1417090930677	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1417090930677	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1417090930677	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1417090930677	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1417090930677	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1417090930677	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1417090930681	Sync.BrowserIDManager	INFO	Waiting for user to be verified.
+1417090930681	FirefoxAccounts	DEBUG	already verified
+1417090930681	Sync.BrowserIDManager	INFO	Starting fetch for key bundle.
+1417090930681	Sync.BrowserIDManager	INFO	Fetching assertion and token from: https://token.services.mozilla.com/1.0/sync/1.5
+1417090930681	FirefoxAccounts	DEBUG	already verified
+1417090930682	Sync.BrowserIDManager	ERROR	Non-authentication error in _fetchTokenForUser: undefined
+1417090930682	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1417090930682	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1417090930682	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1417090930683	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms.

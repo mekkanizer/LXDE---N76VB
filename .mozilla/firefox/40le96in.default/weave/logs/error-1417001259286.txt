@@ -1,0 +1,50 @@
+1417000760218	Sync.ErrorHandler	DEBUG	Flushing file log.
+1417000760219	Sync.Service	DEBUG	Exception: No keyFetchToken No traceback available
+1417000760219	Sync.Service	DEBUG	Not syncing: login returned false.
+1417000760221	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1417000760221	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1417000760221	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1417000760221	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1417000760221	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1417000760221	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1417000760222	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1417000760222	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1417000760222	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1417000760222	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1417000760222	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1417000760222	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1417000760223	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1417000760223	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1417000760223	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1417000760223	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1417000760223	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1417000760223	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1417000760223	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1417000760223	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1417000760223	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1417000760223	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1417000760224	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1417000760224	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1417000760231	Sync.ErrorHandler	DEBUG	Log cleanup threshold time: 1416136760230
+1417000760234	Sync.ErrorHandler	DEBUG	No logs to clean up.
+1417000760239	Sync.ErrorHandler	DEBUG	Log cleanup threshold time: 1416136760239
+1417000760242	Sync.ErrorHandler	DEBUG	No logs to clean up.
+1417001259275	Sync.Service	DEBUG	User-Agent: Firefox/33.0 FxSync/1.35.0.20141013200257.
+1417001259275	Sync.Service	INFO	Starting sync at 2014-11-26 14:27:39
+1417001259275	Sync.Service	DEBUG	In sync: should login.
+1417001259277	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1417001259277	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1417001259277	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1417001259277	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1417001259277	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1417001259277	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1417001259280	Sync.BrowserIDManager	INFO	Waiting for user to be verified.
+1417001259281	FirefoxAccounts	DEBUG	already verified
+1417001259281	Sync.BrowserIDManager	INFO	Starting fetch for key bundle.
+1417001259282	Sync.BrowserIDManager	INFO	Fetching assertion and token from: https://token.services.mozilla.com/1.0/sync/1.5
+1417001259282	FirefoxAccounts	DEBUG	already verified
+1417001259283	Sync.BrowserIDManager	ERROR	Non-authentication error in _fetchTokenForUser: undefined
+1417001259283	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1417001259283	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1417001259284	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1417001259285	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms.

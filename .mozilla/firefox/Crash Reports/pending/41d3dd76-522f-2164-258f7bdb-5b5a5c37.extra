@@ -1,0 +1,26 @@
+StartupTime=1408589456
+EMCheckCompatibility=true
+ActiveExperiment=fx-dom.ipc.plugins.unloadTimeoutSecs-beta32@experiments.mozilla.org
+ProductName=Firefox
+Vendor=Mozilla
+InstallTime=1408584272
+Theme=ftdeepdark
+Notes=OpenGL: Intel Open Source Technology Center -- Mesa DRI Intel(R) Ivybridge Mobile  -- 3.0 Mesa 10.1.3 -- texture_from_pixmap\n
+FramePoisonSize=4096
+Version=32.0
+FramePoisonBase=7ffffffff0dea000
+ReleaseChannel=beta
+ServerURL=https://crash-reports.mozilla.com/submit?id={ec8030f7-c20a-464f-9b0e-13a3a9e97384}&version=32.0&buildid=20140818191513
+useragent_locale=ru
+Add-ons=ubufox%40ubuntu.com:2.9,ClassicThemeRestorer%40ArisT2Noia4dev:1.2.3,%7B19503e42-ca3c-4c27-b1e2-9cdb2170ee34%7D:1.5.6.4,stefanvandamme%40stefanvd.net:3.0.0.12,e67f8350-7edf-11e3-baa7-0800200c9a66%40fri-gate.org:2.1.3,%7B77d2ed30-4cd2-11e0-b8af-0800200c9a66%7D:11.0.2,%7Bd10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d%7D:2.6.4,jid1-mdjmA7if6lo8lA%40jetpack:0.6,%7Bb9bfaf1c-a63f-47cd-8b9a-29526ced9060%7D:1.7.25,fx-dom.ipc.plugins.unloadTimeoutSecs-beta32%40experiments.mozilla.org:1.0.0
+BuildID=20140818191513
+ProductID={ec8030f7-c20a-464f-9b0e-13a3a9e97384}
+URL=https://vk.com/audios12045175?q=wario%20land
+CrashTime=1408972679
+StartupTime=1408753323
+PluginHang=1
+ProcessType=plugin
+additional_minidumps=browser
+PluginVersion=11.2.202.400
+PluginName=Shockwave Flash
+PluginFilename=libflashplayer.so

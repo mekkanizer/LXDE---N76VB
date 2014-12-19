@@ -1,0 +1,7 @@
+1417476489734	Sync.ErrorHandler	DEBUG	Flushing file log.
+1417476489735	Sync.Status	DEBUG	Status.sync: error.sync.prolonged_failure => error.sync.prolonged_failure
+1417476489735	Sync.Status	DEBUG	Status.service: error.login.failed => error.sync.failed
+1417476489736	Sync.BrowserIDManager	ERROR	Background fetch for key bundle failed: No keyFetchToken
+1417476489737	Sync.BrowserIDManager	ERROR	Could not authenticate: No keyFetchToken
+1417476489737	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1417476489738	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms.

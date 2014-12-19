@@ -1,0 +1,152 @@
+1417159651334	Sync.ErrorHandler	DEBUG	Flushing file log.
+1417159651335	Sync.Service	DEBUG	Exception: No keyFetchToken No traceback available
+1417159651335	Sync.Service	DEBUG	Not syncing: login returned false.
+1417159651335	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1417159651335	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1417159651335	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1417159651335	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1417159651335	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1417159651335	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1417159651335	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1417159651335	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1417159651335	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1417159651336	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1417159651336	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1417159651336	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1417159651336	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1417159651336	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1417159651336	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1417159651336	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1417159651336	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1417159651336	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1417159651337	Sync.ErrorHandler	DEBUG	Log cleanup threshold time: 1416295651337
+1417159651340	Sync.ErrorHandler	DEBUG	No logs to clean up.
+1417159651340	Sync.ErrorHandler	DEBUG	Log cleanup threshold time: 1416295651340
+1417159651343	Sync.ErrorHandler	DEBUG	No logs to clean up.
+1417159659343	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417159715944	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417159725662	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417159738497	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417159738499	Sync.Tracker.Forms	DEBUG	Saving changed IDs to forms
+1417159744117	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417159811888	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417159826874	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417159855566	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417159917665	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417159920060	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417160003310	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417160040239	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417160130665	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417160249113	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417160273085	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417160274918	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417160487540	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417160489639	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417160495541	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417160824686	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417160826557	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417160874527	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417160878650	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161040846	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161069645	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161074861	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161088516	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161138058	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161142540	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161152041	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161153365	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161166073	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161172719	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161175864	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161177697	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161184369	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161188518	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161211860	Sync.Tracker.Forms	DEBUG	Saving changed IDs to forms
+1417161211906	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161214871	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161216904	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161234140	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161236940	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161343026	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161350964	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161352058	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161358407	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161374193	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161377634	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161380679	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161384951	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161386197	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161387199	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161391628	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161395541	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161397169	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161409032	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161417745	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161427797	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161433307	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161441272	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161462839	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161469065	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161475076	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161489214	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161490393	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161513280	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161522543	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161552622	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161556127	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161565530	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161568076	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161569685	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161576748	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161579393	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161584780	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161588777	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161597036	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161602009	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161605463	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161612292	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161640249	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161652446	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161654501	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161662167	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161673654	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161687091	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161695037	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161697997	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161709210	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161717756	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161727813	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161746069	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161772099	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161778227	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161808963	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161821880	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161823863	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161825090	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161833627	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161835479	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161859713	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161861067	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161867227	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161873767	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161874864	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417161877917	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417163251335	Sync.Service	DEBUG	User-Agent: Firefox/33.0 FxSync/1.35.0.20141013200257.
+1417163251335	Sync.Service	INFO	Starting sync at 2014-11-28 11:27:31
+1417163251336	Sync.Service	DEBUG	In sync: should login.
+1417163251337	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1417163251338	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1417163251338	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1417163251338	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1417163251338	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1417163251338	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1417163251343	Sync.BrowserIDManager	INFO	Waiting for user to be verified.
+1417163251343	FirefoxAccounts	DEBUG	already verified
+1417163251343	Sync.BrowserIDManager	INFO	Starting fetch for key bundle.
+1417163251343	Sync.BrowserIDManager	INFO	Fetching assertion and token from: https://token.services.mozilla.com/1.0/sync/1.5
+1417163251343	FirefoxAccounts	DEBUG	already verified
+1417163251344	Sync.BrowserIDManager	ERROR	Non-authentication error in _fetchTokenForUser: undefined
+1417163251344	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1417163251344	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1417163251344	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1417163251345	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms.

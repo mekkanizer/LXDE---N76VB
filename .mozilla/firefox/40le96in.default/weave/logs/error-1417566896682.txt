@@ -1,0 +1,50 @@
+1417563296670	Sync.ErrorHandler	DEBUG	Flushing file log.
+1417563296717	Sync.Status	DEBUG	Status.sync: success.sync => error.sync.prolonged_failure
+1417563296717	Sync.Status	DEBUG	Status.service: error.login.failed => error.sync.failed
+1417563296718	Sync.BrowserIDManager	ERROR	Background fetch for key bundle failed: No keyFetchToken
+1417563296718	Sync.BrowserIDManager	ERROR	Could not authenticate: No keyFetchToken
+1417563296725	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1417563296725	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1417563296725	Sync.Status	DEBUG	Status.service: error.sync.failed => error.login.failed
+1417563297593	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1417563297593	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1417563297593	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1417563297629	Sync.ErrorHandler	DEBUG	Log cleanup threshold time: 1416699297629
+1417563298280	Sync.ErrorHandler	DEBUG	Done deleting files.
+1417563298534	Sync.Tracker.AdblockPlus	WARN	Changed IDs file adblockplus contains non-object value.
+1417563298535	Sync.Tracker.AdblockPlus.private	WARN	Changed IDs file adblockplus.private contains non-object value.
+1417563318574	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1417563322669	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1417563322669	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1417563322669	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1417563780503	Sync.AddonsReconciler	DEBUG	Add-on change: onInstalling to nasanightlaunch@example.com
+1417563780503	Sync.AddonsReconciler	INFO	Saving reconciler state to file: addonsreconciler
+1417563780523	Sync.AddonsReconciler	DEBUG	Add-on change: onInstallEnded to nasanightlaunch@example.com
+1417563780523	Sync.AddonsReconciler	DEBUG	Rectifying state for addon: nasanightlaunch@example.com
+1417563780525	Sync.AddonsReconciler	DEBUG	Adding change because add-on not present locally: nasanightlaunch@example.com
+1417563780526	Sync.AddonsReconciler	INFO	Change recorded for nasanightlaunch@example.com
+1417563780526	Sync.Tracker.Addons	DEBUG	changeListener invoked: 1 nasanightlaunch@example.com
+1417563780529	Sync.AddonsReconciler	INFO	Saving reconciler state to file: addonsreconciler
+1417563781528	Sync.Tracker.Addons	DEBUG	Saving changed IDs to addons
+1417563973509	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1417563973509	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1417563973509	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1417566896670	Sync.Service	DEBUG	User-Agent: Firefox/33.0 FxSync/1.35.0.20141013200257.
+1417566896671	Sync.Service	INFO	Starting sync at 2014-12-03 03:34:56
+1417566896672	Sync.Service	DEBUG	In sync: should login.
+1417566896673	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1417566896673	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1417566896673	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1417566896673	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1417566896673	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1417566896674	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1417566896679	Sync.BrowserIDManager	INFO	Waiting for user to be verified.
+1417566896679	FirefoxAccounts	DEBUG	already verified
+1417566896680	Sync.BrowserIDManager	INFO	Starting fetch for key bundle.
+1417566896680	Sync.BrowserIDManager	INFO	Fetching assertion and token from: https://token.services.mozilla.com/1.0/sync/1.5
+1417566896680	FirefoxAccounts	DEBUG	already verified
+1417566896681	Sync.BrowserIDManager	ERROR	Non-authentication error in _fetchTokenForUser: undefined
+1417566896681	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1417566896681	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1417566896681	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1417566896681	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms.

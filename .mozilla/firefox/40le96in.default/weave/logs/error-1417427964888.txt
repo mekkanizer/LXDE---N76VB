@@ -1,0 +1,27 @@
+1417427964848	Sync.Service	INFO	Loading Weave 1.35.0
+1417427964849	Sync.Engine.Clients	DEBUG	Engine initialized
+1417427964850	Sync.Engine.Clients	DEBUG	Resetting clients last sync time
+1417427964854	Sync.Engine.Bookmarks	DEBUG	Engine initialized
+1417427964856	Sync.Engine.Forms	DEBUG	Engine initialized
+1417427964858	Sync.Engine.History	DEBUG	Engine initialized
+1417427964861	Sync.Engine.Passwords	DEBUG	Engine initialized
+1417427964863	Sync.Engine.Prefs	DEBUG	Engine initialized
+1417427964865	Sync.Engine.Tabs	DEBUG	Engine initialized
+1417427964866	Sync.Engine.Tabs	DEBUG	Resetting tabs last sync time
+1417427964869	Sync.Engine.Addons	DEBUG	Engine initialized
+1417427964870	Sync.Service	INFO	Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0
+1417427964873	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1417427964874	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1417427964874	Sync.Service	DEBUG	Caching URLs under storage user base: https://sync-155-us-west-2.sync.services.mozilla.com/1.5/12012460/
+1417427964874	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1417427964874	Sync.AddonsReconciler	INFO	Registering as Add-on Manager listener.
+1417427964874	Sync.AddonsReconciler	DEBUG	Adding change listener.
+1417427964875	Sync.Tracker.History	INFO	Adding Places observer.
+1417427964883	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1417427964884	Sync.Engine.AdblockPlus	DEBUG	Engine initialized
+1417427964885	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1417427964887	Sync.BrowserIDManager	ERROR	Non-authentication error in _fetchTokenForUser: undefined
+1417427964887	Sync.Status	DEBUG	Status.login: success.login => error.login.reason.network
+1417427964887	Sync.Status	DEBUG	Status.service: success.status_ok => error.login.failed
+1417427964887	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1417427964887	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms.

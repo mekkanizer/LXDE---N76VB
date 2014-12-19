@@ -1,0 +1,234 @@
+1416917408310	Sync.ErrorHandler	DEBUG	Flushing file log.
+1416917408311	Sync.Service	DEBUG	Exception: No keyFetchToken No traceback available
+1416917408311	Sync.Service	DEBUG	Not syncing: login returned false.
+1416917408311	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1416917408311	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1416917408311	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1416917408311	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1416917408311	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1416917408311	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1416917408312	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1416917408312	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1416917408312	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1416917408312	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1416917408312	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1416917408312	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1416917408312	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1416917408312	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1416917408312	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1416917408312	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1416917408312	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1416917408312	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1416917408312	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1416917408312	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1416917408312	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1416917408313	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1416917408313	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1416917408313	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1416917408313	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1416917408313	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1416917408313	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1416917408313	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1416917408313	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1416917408313	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1416917408314	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1416917408314	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1416917408314	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1416917408314	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1416917408314	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1416917408314	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1416917408314	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1416917408314	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1416917408314	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1416917408315	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1416917408315	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1416917408315	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1416917408315	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1416917408315	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1416917408315	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1416917408315	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1416917408315	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1416917408316	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1416917408316	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1416917408316	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1416917408316	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1416917408316	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1416917408316	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1416917408316	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1416917408317	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1416917408317	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1416917408317	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1416917408317	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1416917408317	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1416917408317	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1416917408317	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1416917408317	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1416917408317	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1416917408318	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1416917408318	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1416917408318	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1416917408318	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1416917408318	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1416917408318	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1416917408318	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1416917408318	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1416917408318	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1416917408319	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1416917408319	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1416917408319	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1416917408319	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1416917408319	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1416917408319	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1416917408320	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1416917408320	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1416917408320	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1416917408320	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1416917408320	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1416917408320	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1416917408320	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1416917408320	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1416917408320	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1416917408321	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1416917408321	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1416917408321	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1416917408325	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1416917408325	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1416917408325	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1416917408325	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1416917408325	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1416917408325	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1416917408326	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1416917408326	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1416917408326	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1416917408326	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1416917408326	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1416917408326	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1416917408326	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1416917408326	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1416917408326	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1416917408327	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1416917408327	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1416917408327	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1416917408327	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1416917408327	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1416917408327	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1416917408327	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1416917408327	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1416917408327	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1416917408328	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1416917408328	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1416917408328	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1416917408328	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1416917408328	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1416917408328	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1416917408328	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1416917408328	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1416917408328	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1416917408329	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1416917408329	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1416917408329	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1416917408329	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1416917408329	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1416917408329	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1416917408329	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1416917408329	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1416917408330	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1416917408330	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1416917408330	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1416917408330	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1416917408330	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1416917408330	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1416917408330	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1416917408331	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1416917408331	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1416917408331	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1416917408331	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1416917408331	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1416917408331	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1416917408331	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1416917408331	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1416917408331	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1416917408331	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1416917408332	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1416917408332	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1416917408332	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1416917408332	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1416917408332	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1416917408332	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1416917408332	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1416917408332	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1416917408332	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1416917408332	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1416917408332	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1416917408333	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1416917408333	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1416917408333	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1416917408333	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1416917408333	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1416917408333	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1416917408333	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1416917408333	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1416917408333	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1416917408334	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1416917408334	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1416917408334	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1416917408334	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1416917408334	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1416917408334	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1416917408334	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1416917408334	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1416917408334	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1416917408335	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1416917408335	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1416917408335	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1416917408368	Sync.ErrorHandler	DEBUG	Log cleanup threshold time: 1416053408368
+1416917408373	Sync.ErrorHandler	DEBUG	No logs to clean up.
+1416917408374	Sync.ErrorHandler	DEBUG	Log cleanup threshold time: 1416053408374
+1416917408377	Sync.ErrorHandler	DEBUG	No logs to clean up.
+1416917844700	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1416917908841	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1416918263218	Sync.Tracker.Passwords	DEBUG	Saving changed IDs to passwords
+1416918263783	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1416918383597	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1416918432589	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1416918451910	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1416918457913	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1416918459065	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1416918472671	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1416918474618	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1416918678174	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1416918680478	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1416918956681	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1416918960160	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1416918964617	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1416918968425	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1416918971977	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1416918976978	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1416920165577	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1416920167165	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1416920184103	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1416920228570	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1416920586941	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1416920639835	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1416920736487	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1416920742437	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1416920745006	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1416921008311	Sync.Service	DEBUG	User-Agent: Firefox/33.0 FxSync/1.35.0.20141013200257.
+1416921008311	Sync.Service	INFO	Starting sync at 2014-11-25 16:10:08
+1416921008312	Sync.Service	DEBUG	In sync: should login.
+1416921008321	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1416921008321	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1416921008321	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1416921008321	Sync.BrowserIDManager	INFO	currentAuthState returning error.login.reason.network due to previous failure
+1416921008321	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1416921008321	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1416921008325	Sync.BrowserIDManager	INFO	Waiting for user to be verified.
+1416921008326	FirefoxAccounts	DEBUG	already verified
+1416921008326	Sync.BrowserIDManager	INFO	Starting fetch for key bundle.
+1416921008326	Sync.BrowserIDManager	INFO	Fetching assertion and token from: https://token.services.mozilla.com/1.0/sync/1.5
+1416921008326	FirefoxAccounts	DEBUG	already verified
+1416921008327	Sync.BrowserIDManager	ERROR	Non-authentication error in _fetchTokenForUser: undefined
+1416921008327	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1416921008327	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1416921008327	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1416921008328	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms.
