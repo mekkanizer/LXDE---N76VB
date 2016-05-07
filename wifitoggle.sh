@@ -8,7 +8,7 @@ IFACE=`rfkill list all | grep phy | cut -c 1`
 BLOCKED=`rfkill list all | grep -iA1 phy | grep -ic soft.*yes`
 
 if [ $BLOCKED -eq 1 ]; then
-	nmcli nm wifi on
+	sudo rfkill unblock wifi
 else
-	nmcli nm wifi off
+	sudo rfkill block wifi
 fi
