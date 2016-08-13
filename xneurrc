@@ -61,8 +61,8 @@ AddBind EnableLayout1
 AddBind EnableLayout2 
 AddBind EnableLayout3 
 AddBind EnableLayout4 
-AddBind RotateLayout
-AddBind RotateLayoutBack
+AddBind RotateLayout Control Shift_L
+AddBind RotateLayoutBack Shift Control_L
 AddBind ReplaceAbbreviation Control Tab
 AddBind AutocompletionConfirmation Tab
 AddBind BlockKeyboardAndMouseEvents 
