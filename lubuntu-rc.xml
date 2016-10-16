@@ -42,7 +42,7 @@
                   'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>Clearlooks-3.4</name>
+    <name>Zarp Neon</name>
     <titleLayout>NLIMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -178,54 +178,31 @@
   <keyboard>
     <chainQuitKey>C-g</chainQuitKey>
     <!-- Keybindings for desktop switching -->
-    <keybind key="C-A-Left">
+    <keybind key="A-comma">
       <action name="GoToDesktop">
-        <to>left</to>
+        <to>previous</to>
         <wrap>no</wrap>
       </action>
     </keybind>
-    <keybind key="C-A-Right">
+    <keybind key="A-period">
       <action name="GoToDesktop">
-        <to>right</to>
+        <to>next</to>
         <wrap>no</wrap>
       </action>
     </keybind>
-    <keybind key="C-A-Up">
-      <action name="GoToDesktop">
-        <to>up</to>
-        <wrap>no</wrap>
-      </action>
-    </keybind>
-    <keybind key="C-A-Down">
-      <action name="GoToDesktop">
-        <to>down</to>
-        <wrap>no</wrap>
-      </action>
-    </keybind>
-    <keybind key="S-A-Left">
+    <keybind key="C-A-comma">
       <action name="SendToDesktop">
-        <to>left</to>
+        <to>previous</to>
         <wrap>no</wrap>
       </action>
     </keybind>
-    <keybind key="S-A-Right">
+    <keybind key="C-A-period">
       <action name="SendToDesktop">
-        <to>right</to>
+        <to>next</to>
         <wrap>no</wrap>
       </action>
     </keybind>
-    <keybind key="S-A-Up">
-      <action name="SendToDesktop">
-        <to>up</to>
-        <wrap>no</wrap>
-      </action>
-    </keybind>
-    <keybind key="S-A-Down">
-      <action name="SendToDesktop">
-        <to>down</to>
-        <wrap>no</wrap>
-      </action>
-    </keybind>
+
     <keybind key="W-1">
       <action name="GoToDesktop">
         <to>1</to>
@@ -246,6 +223,7 @@
         <to>4</to>
       </action>
     </keybind>
+
     <keybind key="W-d">
       <action name="ToggleShowDesktop"/>
     </keybind>
@@ -256,7 +234,22 @@
     </keybind>
     <keybind key="W-c">
       <action name="Execute">
-        <command>chromium</command>
+        <command>chromium-browser</command>
+      </action>
+    </keybind>
+    <keybind key="W-g">
+      <action name="Execute">
+        <command>/opt/sublime_text/sublime_text</command>
+      </action>
+    </keybind>
+    <keybind key="W-h">
+      <action name="Execute">
+        <command>/home/mekkanizer/proj/h_reset.sh</command>
+      </action>
+    </keybind>
+    <keybind key="W-m">
+      <action name="Execute">
+        <command>lxterminal --command=mc</command>
       </action>
     </keybind>
     <keybind key="W-s">
@@ -293,7 +286,7 @@ boolean:true</command>
     </keybind>
     <keybind key="W-p">
       <action name="Execute">
-        <command>lxrandr</command>
+        <command>/home/mekkanizer/proj/myeyes.sh</command>
       </action>
     </keybind>
     <!-- Keybindings for windows -->
@@ -435,8 +428,20 @@ boolean:true</command>
     <keybind key="F11">
       <action name="ToggleFullscreen"/>
     </keybind>
+    <!-- Keybindings to toggle fullscreen -->
+    <keybind key="Insert">
+      <action name="Execute">
+        <command>pkill blueman-applet</command>
+      </action>
+    </keybind>
     <!-- Launch task manager on Ctrl + Alt + Del-->
     <keybind key="C-A-Delete">
+      <action name="Execute">
+        <command>lxsession-default tasks</command>
+      </action>
+    </keybind>
+    <!-- Launch task manager on Ctrl + Shift + Esc-->
+    <keybind key="C-S-Escape">
       <action name="Execute">
         <command>lxsession-default tasks</command>
       </action>
