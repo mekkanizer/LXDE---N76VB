@@ -1,5 +1,0 @@
-1417095800978	Sync.ErrorHandler	DEBUG	Flushing file log.
-1417095800979	Sync.BrowserIDManager	ERROR	Background fetch for key bundle failed: No keyFetchToken
-1417095800979	Sync.BrowserIDManager	ERROR	Could not authenticate: No keyFetchToken
-1417095800979	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
-1417095800979	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms.
