@@ -21,9 +21,9 @@
     <!-- when followMouse is enabled, the mouse must be inside the window for
        this many milliseconds (1000 = 1 sec) before moving focus to it -->
     <raiseOnFocus>no</raiseOnFocus>
-    <!-- when followMouse is enabled, and a window is given focus by moving the
-       mouse into it, also raise the window -->
   </focus>
+  <!-- when followMouse is enabled, and a window is given focus by moving the
+       mouse into it, also raise the window -->
   <placement>
     <policy>Smart</policy>
     <!-- 'Smart' or 'UnderMouse' -->
@@ -35,17 +35,16 @@
        on: 'Any' - any monitor, 'Mouse' - where the mouse is, 'Active' - where
        the active window is, 'Primary' - only on the primary monitor -->
     <primaryMonitor>Mouse</primaryMonitor>
-    <!-- The monitor where Openbox should place popup dialogs such as the
+  </placement>
+  <!-- The monitor where Openbox should place popup dialogs such as the
        focus cycling popup, or the desktop switch popup.  It can be an index
        from 1, specifying a particular monitor.  Or it can be one of the
        following: 'Mouse' - where the mouse is, or
                   'Active' - where the active window is -->
-  </placement>
   <theme>
     <name>Zarp Neon</name>
     <titleLayout>NLIMC</titleLayout>
-    <!--
-      available characters are NDSLIMC, each can occur at most once.
+    <!--       available characters are NDSLIMC, each can occur at most once.
       N: window icon
       L: window label (AKA title).
       I: iconify
@@ -63,8 +62,8 @@
       <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
       <slant>Normal</slant>
-      <!-- 'italic' or 'normal' -->
     </font>
+    <!-- 'italic' or 'normal' -->
     <font place="InactiveWindow">
       <name>Sans</name>
       <size>12</size>
@@ -72,8 +71,8 @@
       <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
       <slant>Normal</slant>
-      <!-- 'italic' or 'normal' -->
     </font>
+    <!-- 'italic' or 'normal' -->
     <font place="MenuHeader">
       <name>Ubuntu</name>
       <size>11</size>
@@ -81,8 +80,8 @@
       <weight>normal</weight>
       <!-- 'bold' or 'normal' -->
       <slant>normal</slant>
-      <!-- 'italic' or 'normal' -->
     </font>
+    <!-- 'italic' or 'normal' -->
     <font place="MenuItem">
       <name>Ubuntu</name>
       <size>11</size>
@@ -90,8 +89,8 @@
       <weight>normal</weight>
       <!-- 'bold' or 'normal' -->
       <slant>normal</slant>
-      <!-- 'italic' or 'normal' -->
     </font>
+    <!-- 'italic' or 'normal' -->
     <font place="ActiveOnScreenDisplay">
       <name>Ubuntu Medium</name>
       <size>11</size>
@@ -99,8 +98,8 @@
       <weight>bold</weight>
       <!-- 'bold' or 'normal' -->
       <slant>normal</slant>
-      <!-- 'italic' or 'normal' -->
     </font>
+    <!-- 'italic' or 'normal' -->
     <font place="InactiveOnScreenDisplay">
       <name>Ubuntu Medium</name>
       <size>11</size>
@@ -108,9 +107,9 @@
       <weight>bold</weight>
       <!-- 'bold' or 'normal' -->
       <slant>normal</slant>
-      <!-- 'italic' or 'normal' -->
     </font>
   </theme>
+  <!-- 'italic' or 'normal' -->
   <desktops>
     <!-- this stuff is only used at startup, pagers allow you to change them
        during a session
@@ -128,9 +127,9 @@
       <name>code</name>
     </names>
     <popupTime>875</popupTime>
-    <!-- The number of milliseconds to show the popup for when switching
-       desktops.  Set this to 0 to disable the popup. -->
   </desktops>
+  <!-- The number of milliseconds to show the popup for when switching
+       desktops.  Set this to 0 to disable the popup. -->
   <resize>
     <drawContents>no</drawContents>
     <popupShow>Nonpixel</popupShow>
@@ -143,8 +142,6 @@
       <!-- positive number for distance from left edge, negative number for
          distance from right edge, or 'Center' -->
       <y>10</y>
-      <!-- positive number for distance from top edge, negative number for
-         distance from bottom edge, or 'Center' -->
     </popupFixedPosition>
   </resize>
   <!-- You can reserve a portion of your screen where windows will not cover when
@@ -173,8 +170,8 @@
     <showDelay>300</showDelay>
     <!-- in milliseconds (1000 = 1 second) -->
     <moveButton>Middle</moveButton>
-    <!-- 'Left', 'Middle', 'Right' -->
   </dock>
+  <!-- 'Left', 'Middle', 'Right' -->
   <keyboard>
     <chainQuitKey>C-g</chainQuitKey>
     <!-- Keybindings for desktop switching -->
@@ -186,6 +183,30 @@
     </keybind>
     <keybind key="A-period">
       <action name="GoToDesktop">
+        <to>next</to>
+        <wrap>no</wrap>
+      </action>
+    </keybind>
+    <keybind key="S-KP_Left">
+      <action name="GoToDesktop">
+        <to>previous</to>
+        <wrap>no</wrap>
+      </action>
+    </keybind>
+    <keybind key="S-KP_Right">
+      <action name="GoToDesktop">
+        <to>next</to>
+        <wrap>no</wrap>
+      </action>
+    </keybind>
+    <keybind key="C-S-KP_Left">
+      <action name="SendToDesktop">
+        <to>previous</to>
+        <wrap>no</wrap>
+      </action>
+    </keybind>
+    <keybind key="C-S-KP_Right">
+      <action name="SendToDesktop">
         <to>next</to>
         <wrap>no</wrap>
       </action>
@@ -202,7 +223,6 @@
         <wrap>no</wrap>
       </action>
     </keybind>
-
     <keybind key="W-1">
       <action name="GoToDesktop">
         <to>1</to>
@@ -223,7 +243,6 @@
         <to>4</to>
       </action>
     </keybind>
-
     <keybind key="W-d">
       <action name="ToggleShowDesktop"/>
     </keybind>
@@ -232,19 +251,19 @@
         <command>firefox</command>
       </action>
     </keybind>
-    <keybind key="W-c">
+    <keybind key="W-b">
       <action name="Execute">
         <command>chromium-browser</command>
+      </action>
+    </keybind>
+    <keybind key="W-v">
+      <action name="Execute">
+        <command>lxterminal --command=vim</command>
       </action>
     </keybind>
     <keybind key="W-g">
       <action name="Execute">
         <command>/opt/sublime_text/sublime_text</command>
-      </action>
-    </keybind>
-    <keybind key="W-h">
-      <action name="Execute">
-        <command>/home/mekkanizer/proj/h_reset.sh</command>
       </action>
     </keybind>
     <keybind key="W-m">
@@ -267,26 +286,21 @@
         <command>leafpad</command>
       </action>
     </keybind>
-    <keybind key="XF86Launch1">
+    <keybind key="Menu">
       <action name="Execute">
         <command>dbus-send --print-reply --system --dest=org.freedesktop.login1 \
 /org/freedesktop/login1 org.freedesktop.login1.Manager.Suspend \
 boolean:true</command>
       </action>
     </keybind>
-    <keybind key="XF86WebCam">
-      <action name="Execute">
-        <command>/home/mekkanizer/proj/wifitoggle.sh</command>
-      </action>
-    </keybind>
-    <keybind key="XF86TouchpadToggle">
+    <keybind key="C-F7">
       <action name="Execute">
         <command>/home/mekkanizer/proj/tptoggle.sh</command>
       </action>
     </keybind>
-    <keybind key="W-p">
+    <keybind key="C-F10">
       <action name="Execute">
-        <command>/home/mekkanizer/proj/myeyes.sh</command>
+        <command>numlockx toggle</command>
       </action>
     </keybind>
     <!-- Keybindings for windows -->
@@ -321,6 +335,9 @@ boolean:true</command>
     <keybind key="W-x">
       <action name="ToggleMaximize"/>
     </keybind>
+    <keybind key="W-c">
+      <action name="Close"/>
+    </keybind>
     <keybind key="XF86Launch6">
       <action name="ToggleDecorations"/>
     </keybind>
@@ -354,6 +371,26 @@ boolean:true</command>
         </finalactions>
       </action>
     </keybind>
+    <!--Rebind window cycling to Win key, since ALt is dead-->
+    <keybind key="W-Tab">
+      <action name="NextWindow">
+        <dialog>icons</dialog>
+        <finalactions>
+          <action name="Focus"/>
+          <action name="Raise"/>
+          <action name="Unshade"/>
+        </finalactions>
+      </action>
+    </keybind>
+    <keybind key="W-S-Tab">
+      <action name="PreviousWindow">
+        <finalactions>
+          <action name="Focus"/>
+          <action name="Raise"/>
+          <action name="Unshade"/>
+        </finalactions>
+      </action>
+    </keybind>
     <!-- Keybindings for window switching with the arrow keys -->
     <keybind key="W-S-Right">
       <action name="DirectionalCycleWindows">
@@ -376,22 +413,30 @@ boolean:true</command>
       </action>
     </keybind>
     <!-- Keybindings for window tiling -->
-    <keybind key="W-Left">        # HalfLeftScreen
-      <action name="UnmaximizeFull"/>
-      <action name="MoveResizeTo"><x>0</x><y>0</y><height>100%</height><width>50%</width></action>
-    </keybind>
-    <keybind key="W-Right">        # HalfRightScreen
-      <action name="UnmaximizeFull"/>
-      <action name="MoveResizeTo"><x>-0</x><y>0</y><height>100%</height><width>50%</width></action>
-    </keybind>
-    <keybind key="W-Up">        # HalfUpperScreen
-      <action name="UnmaximizeFull"/>
-      <action name="MoveResizeTo"><x>0</x><y>0</y><width>100%</width><height>50%</height></action>
-    </keybind>
-    <keybind key="W-Down">        # HalfLowerScreen
-      <action name="UnmaximizeFull"/>
-      <action name="MoveResizeTo"><x>0</x><y>-0</y><width>100%</width><height>50%</height></action>
-    </keybind>
+    <keybind key="W-Left"># HalfLeftScreen
+      
+            
+            <action name="UnmaximizeFull"/>
+            <action name="MoveResizeTo"><x>0</x><y>0</y><height>100%</height><width>50%</width></action>
+        </keybind>
+    <keybind key="W-Right"># HalfRightScreen
+      
+            
+            <action name="UnmaximizeFull"/>
+            <action name="MoveResizeTo"><x>-0</x><y>0</y><height>100%</height><width>50%</width></action>
+        </keybind>
+    <keybind key="W-Up"># HalfUpperScreen
+      
+            
+            <action name="UnmaximizeFull"/>
+            <action name="MoveResizeTo"><x>0</x><y>0</y><width>100%</width><height>50%</height></action>
+        </keybind>
+    <keybind key="W-Down"># HalfLowerScreen
+      
+            
+            <action name="UnmaximizeFull"/>
+            <action name="MoveResizeTo"><x>0</x><y>-0</y><width>100%</width><height>50%</height></action>
+        </keybind>
     <!-- Keybindings for running applications on Home + E -->
     <keybind key="W-e">
       <action name="Execute">
@@ -402,7 +447,7 @@ boolean:true</command>
         <command>lxsession-default file_manager</command>
       </action>
     </keybind>
-    <!-- Keybindings for running Run menu from Lxpanel on Home + R-->
+    <!-- Keybindings for running Run menu from Lxpanel on Home + R -->
     <keybind key="W-r">
       <action name="Execute">
         <command>lxsession-default launcher</command>
@@ -419,40 +464,29 @@ boolean:true</command>
         <command>lxpanelctl menu</command>
       </action>
     </keybind>
-    <keybind key="C-Escape">
-      <action name="Execute">
-        <command>lxpanelctl menu</command>
-      </action>
-    </keybind>
     <!-- Keybindings to toggle fullscreen -->
     <keybind key="F11">
       <action name="ToggleFullscreen"/>
     </keybind>
-    <!-- Keybindings to toggle fullscreen -->
-    <keybind key="Insert">
-      <action name="Execute">
-        <command>pkill blueman-applet</command>
-      </action>
-    </keybind>
-    <!-- Launch task manager on Ctrl + Alt + Del-->
+    <!-- Launch task manager on Ctrl + Alt + Del -->
     <keybind key="C-A-Delete">
       <action name="Execute">
         <command>lxsession-default tasks</command>
       </action>
     </keybind>
-    <!-- Launch task manager on Ctrl + Shift + Esc-->
+    <!-- Launch task manager on Ctrl + Shift + Esc -->
     <keybind key="C-S-Escape">
       <action name="Execute">
         <command>lxsession-default tasks</command>
       </action>
     </keybind>
-    <!-- Launch a terminal on Ctrl + Alt + T-->
+    <!-- Launch a terminal on Ctrl + Alt + T -->
     <keybind key="C-A-T">
       <action name="Execute">
         <command>lxsession-default terminal</command>
       </action>
     </keybind>
-    <!-- Launch a filemanager on Ctrl + Alt + D-->
+    <!-- Launch a filemanager on Ctrl + Alt + D -->
     <keybind key="C-A-D">
       <action name="Execute">
         <startupnotify>
@@ -462,10 +496,10 @@ boolean:true</command>
         <command>lxsession-default file_manager</command>
       </action>
     </keybind>
-    <!-- Lock the screen on Ctrl + Alt + l-->
+    <!-- Lock the screen on Ctrl + Alt + l -->
     <keybind key="W-l">
       <action name="Execute">
-        <command>lxsession-default lock</command>
+        <command>lxlock</command>
       </action>
     </keybind>
     <!-- Keybinding for Volume management -->
@@ -491,47 +525,8 @@ boolean:true</command>
     </keybind>
     <keybind key="XF86AudioMute">
       <action name="Execute">
-        <!--command>amixer -q sset Master toggle</command-->
+        <!-- ommand>amixer -q sset Master toggle</command -->
         <command>pactl set-sink-mute 0 toggle</command>
-      </action>
-    </keybind>
-    <!-- Keybinding for terminal button-->
-    <keybind key="XF86WWW">
-      <action name="Execute">
-        <command>lxsession-default terminal</command>
-      </action>
-    </keybind>
-    <keybind key="XF86Terminal">
-      <action name="Execute">
-        <command>lxsession-default terminal</command>
-      </action>
-    </keybind>
-    <!-- Keybinding for calculator button-->
-    <keybind key="XF86Calculator">
-      <action name="Execute">
-        <command>lxsession-default calculator</command>
-      </action>
-    </keybind>
-    <!-- Keybinding for computer button-->
-    <keybind key="XF86MyComputer">
-      <action name="Execute">
-        <command>lxsession-default file_manager</command>
-      </action>
-    </keybind>
-    <!-- Keybindings for Multimedia Keys and LCD Backlight (alternative when not using gnome-power-manager or xfce4-volumed) -->
-    <keybind key="C-F7">
-      <action name="Execute">
-        <command>xset dpms force off</command>
-      </action>
-    </keybind>
-    <keybind key="C-F10">
-      <action name="Execute">
-        <command>xbacklight -dec 10</command>
-      </action>
-    </keybind>
-    <keybind key="C-F11">
-      <action name="Execute">
-        <command>xbacklight -inc 10</command>
       </action>
     </keybind>
     <!-- Launch scrot when Print is pressed -->
@@ -546,13 +541,18 @@ boolean:true</command>
         <command>lxsession-default quit</command>
       </action>
     </keybind>
+    <keybind key="W-p">
+      <action name="Execute">
+        <command>/home/mekkanizer/proj/myeyes.sh</command>
+      </action>
+    </keybind>
   </keyboard>
   <mouse>
     <dragThreshold>8</dragThreshold>
     <!-- number of pixels the mouse must move before a drag begins -->
     <doubleClickTime>200</doubleClickTime>
     <!-- in milliseconds (1000 = 1 second) -->
-    <screenEdgeWarpTime>400</screenEdgeWarpTime>
+    <screenEdgeWarpTime>0</screenEdgeWarpTime>
     <!-- Time before changing desktops when the pointer touches the edge of the
        screen while moving a window, in milliseconds (1000 = 1 second).
        Set this to 0 to disable warping -->
@@ -882,8 +882,6 @@ boolean:true</command>
     </context>
   </mouse>
   <menu>
-    <!-- You can specify more than one menu file in here and they are all loaded,
-       just don't make menu ids clash or, well, it'll be kind of pointless -->
     <!-- default menu file (or custom one in $HOME/.config/openbox/) -->
     <file>/usr/share/lubuntu/openbox/menu.xml</file>
     <file>menu.xml</file>
@@ -907,99 +905,16 @@ boolean:true</command>
     <manageDesktops>yes</manageDesktops>
     <!-- show the manage desktops section in the client-list-(combined-)menu -->
     <showIcons>yes</showIcons>
-    <!-- show icons on the menu -->
   </menu>
+  <!-- show icons on the menu -->
   <applications>
     <application role="browser">
       <maximized>true</maximized>
       <decor>no</decor>
     </application>
-    <!--
-  # this is an example with comments through out. use these to make your
-  # own rules, but without the comments of course.
-  # you may use one or more of the name/class/role/title/type rules to specify
-  # windows to match
-
-  <application name="the window's _OB_APP_NAME property (see obxprop)"
-              class="the window's _OB_APP_CLASS property (see obxprop)"
-               role="the window's _OB_APP_ROLE property (see obxprop)"
-              title="the window's _OB_APP_TITLE property (see obxprop)"
-               type="the window's _OB_APP_TYPE property (see obxprop)..
-                      (if unspecified, then it is 'dialog' for child windows)">
-  # you may set only one of name/class/role/title/type, or you may use more
-  # than one together to restrict your matches.
-
-  # the name, class, role, and title use simple wildcard matching such as those
-  # used by a shell. you can use * to match any characters and ? to match
-  # any single character.
-
-  # the type is one of: normal, dialog, splash, utility, menu, toolbar, dock,
-  #    or desktop
-
-  # when multiple rules match a window, they will all be applied, in the
-  # order that they appear in this list
-
-
-    # each rule element can be left out or set to 'default' to specify to not 
-    # change that attribute of the window
-
-    <decor>yes</decor>
-    # enable or disable window decorations
-
-    <shade>no</shade>
-    # make the window shaded when it appears, or not
-
-    <position force="no">
-      # the position is only used if both an x and y coordinate are provided
-      # (and not set to 'default')
-      # when force is "yes", then the window will be placed here even if it
-      # says you want it placed elsewhere.  this is to override buggy
-      # applications who refuse to behave
-      <x>center</x>
-      # a number like 50, or 'center' to center on screen. use a negative number
-      # to start from the right (or bottom for <y>), ie -50 is 50 pixels from the
-      # right edge (or bottom).
-      <y>200</y>
-      <monitor>1</monitor>
-      # specifies the monitor in a xinerama setup.
-      # 1 is the first head, or 'mouse' for wherever the mouse is
-    </position>
-
-    <focus>yes</focus>
-    # if the window should try be given focus when it appears. if this is set
-    # to yes it doesn't guarantee the window will be given focus. some
-    # restrictions may apply, but Openbox will try to
-
-    <desktop>1</desktop>
-    # 1 is the first desktop, 'all' for all desktops
-
-    <layer>normal</layer>
-    # 'above', 'normal', or 'below'
-
-    <iconic>no</iconic>
-    # make the window iconified when it appears, or not
-
-    <skip_pager>no</skip_pager>
-    # asks to not be shown in pagers
-
-    <skip_taskbar>no</skip_taskbar>
-    # asks to not be shown in taskbars. window cycling actions will also
-    # skip past such windows
-
-    <fullscreen>yes</fullscreen>
-    # make the window in fullscreen mode when it appears
-
-    <maximized>true</maximized>
-    # 'Horizontal', 'Vertical' or boolean (yes/no)
-  </application>
-
-  # end of the example
--->
-    <!-- Option to maximize all normal window when launched-->
-    <!--
-    <application type="normal">
+    <application class="QtCreator">
       <maximized>true</maximized>
+      <decor>no</decor>
     </application>
-    -->
   </applications>
 </openbox_config>
